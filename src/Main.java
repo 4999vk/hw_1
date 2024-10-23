@@ -10,8 +10,8 @@ import java.util.List;
  */
 public class Main {
     public static void main(String[] args) {
-        List<Integer> numbers = List.of(10, 44, 7, 6, 12, 89);
-        int limit = 33;
+        List<Integer> numbers = List.of(3, 15, 45, 6, 17, 2);
+        int limit = 13;
 
 
         List<Integer> result = filterGreaterThan(numbers, limit);
